@@ -6,7 +6,7 @@ COPY . .
 
 RUN go build .
 
-FROM alpine:3.16
+FROM scratch
 
 COPY --from=builder /usr/app/hello .
 
