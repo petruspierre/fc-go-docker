@@ -2,7 +2,7 @@
 
 Just run a container with the following image
 ```bash
-docker pull petruspierre/hello-go
+docker run --rm --name go petruspierre/hello-go:prod
 ```
 
 See it in [DockerHub](https://hub.docker.com/r/petruspierre/hello-go)
